@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Russo+One&display=swap');
+@import url(normalize.css);
+@import url(header.css);
+@import url(body.css);
+@import url(main.css);
+@import url(films.css);
+@import url(info.css);
+@import url(timetable.css);
+@import url(rent.css);
+@import url(about.css);
+@font-face {
+    font-family: 'y-reg';
+    src: url('../fonts/Yasashii\ W01\ Regular.ttf');
+};
+@font-face {
+    font-family: 'y-bold';
+    src: url('../fonts/Yasashii\ W01\ Bold.ttf')
+}; 

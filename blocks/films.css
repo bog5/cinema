@@ -1,0 +1,728 @@
+.films{
+    text-align: center;
+    color: white;
+}
+
+.desktop
+{
+    margin: auto;
+    padding: 100px;
+    width: 100%;
+    /* max-width: 600px;
+    box-sizing: border-box; */
+  } 
+  
+  .carousel__item__desktop {
+    /* background: #fff; */
+
+   font-size: 36px;
+   line-height: 100px;
+   /* margin: 10px;
+   padding: 2%; */
+   position: relative;
+   text-align: center;
+ }
+
+ .mobile
+ {
+   margin: auto;
+   padding: 100px;
+   width: 100%;
+   display: none;
+ }
+
+.film_title{
+    margin-top: 40px;
+    font-size: 16px;
+    Letter-spacing: 2px;
+    font-weight: 10;
+}
+
+.popular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;        
+}
+
+.popular img {
+    height: 442px;
+    width: 950px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.name{
+    display: inline-block;
+    text-align: left;
+    width: 950px;
+    height: 83px;
+    padding: 25px 0px;
+    background-color: #353535;
+    margin: 0 auto;
+    margin-top: -5px;
+    align-items: normal;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.popular_space{
+    width: 220px;
+    margin: -83px 41px 11px 650px;
+}
+
+.films_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_films{
+    max-width: 950px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.first_row{
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+
+
+.inter img{
+    width: 252px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.inter_name{
+    display: inline-block;
+    text-align: left;
+    width: 252px;
+    height: 58px;
+    padding: 18px 14px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+
+.trueman img{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.trueman_name{
+    display: inline-block;
+    text-align: left;
+    width: 250px;
+    height: 58px;
+    padding: 18px 14px;
+    background-color: #dfdfdf;
+    border-radius: 16px;
+    margin-top: 6px;
+}
+
+.whiplash img{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.whiplash_name{
+    display: inline-block;
+    text-align: left;
+    width: 250px;
+    height: 58px;
+    padding: 18px 14px;
+    background-color: #dfdfdf;
+    border-radius: 16px;
+    margin-top: 6px;
+}
+
+
+.second_row{
+    margin-top: 60px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.lala img{
+    width: 252px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.lala_name{
+    display: inline-block;
+    text-align: left;
+    width: 252px;
+    height: 58px;
+    padding: 18px 14px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+
+.getout img{
+    width: 252px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.getout_name{
+    display: inline-block;
+    text-align: left;
+    width: 252px;
+    height: 58px;
+    padding: 18px 14px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+
+.hotel img{
+    width: 252px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.hotel_name{
+    display: inline-block;
+    text-align: left;
+    width: 252px;
+    height: 58px;
+    padding: 10px 20px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+.hotel_name .ticket_min{
+    width: 58px;
+    height: 59px;
+    margin: -10px 0px 0px -6px;
+}
+
+
+
+.third_row{
+    margin-top: 60px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+
+
+.lighthouse img{
+    width: 252px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.lighthouse_name{
+    display: inline-block;
+    text-align: left;
+    width: 252px;
+    height: 58px;
+    padding: 18px 14px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+.knives img{
+    width: 252px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.knives_name{
+    display: inline-block;
+    text-align: left;
+    width: 252px;
+    height: 58px;
+    padding: 18px 14px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+.hollywood img{
+    width: 252px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.hollywood_name{
+    display: inline-block;
+    text-align: left;
+    width: 252px;
+    height: 58px;
+    padding: 10px 20px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+.hollywood_name .ticket_min{
+    width: 58px;
+    height: 59px;
+    margin: -10px 0px 0px -6px;
+}
+
+
+
+
+.ticket_min img{
+    width: 58px;
+    height: 59px;
+    margin: -37px 0px 0px 185px;
+}
+
+
+.soon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.soon_title{
+    color: white;
+    text-align: center;
+
+    font-size: 25px;
+}
+
+.container_soon{
+    max-width: 950px;
+    display: flex;
+    flex-flow: wrap;
+    order: 2;
+
+}
+
+.fourth_row{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.moon img{
+    width: 252px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.moon_name{
+    display: inline-block;
+    text-align: center;
+    width: 252px;
+    height: 58px;
+    padding: 18px 14px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+
+.fint img{
+    width: 252px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.fint_name{
+    display: inline-block;
+    text-align: center;
+    width: 252px;
+    height: 58px;
+    padding: 18px 14px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+.irony img{
+    width: 252px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.irony_name{
+    display: inline-block;
+    text-align: center;
+    width: 252px;
+    height: 58px;
+    padding: 18px 14px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+.see_you{
+    display: flex;
+    margin-top: -300px
+}
+
+.see_text h4{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+.statham{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.sect_soc{
+    height: 200px;
+    display: flex;
+    border-top: 2px solid white;
+    align-items: center;
+
+}
+
+.social_f{
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.download_f{
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+}
+
+.media_f {
+    display: flex;
+    flex-flow: row;
+}
+
+.media_f {
+    gap: 40px;
+}
+
+.vk img{
+    width: 80px;
+    height: 80px;
+}
+
+.telegram img{
+    width: 80px;
+    height: 80px;
+}
+
+.inst img{
+    width: 80px;
+    height: 80px;
+}
+
+.market img{
+    width: 80px;
+    height: 80px;
+}
+
+.appstore img{
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (max-width: 390px) {
+    .film_title h1 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .popular{
+        margin-top: 0;
+    }
+    .popular img{
+        width: 220px;
+        height: 90px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+
+    .name{
+        display: inline-block;
+        text-align: left;
+        width: 220px;
+        height: 17px;
+        padding: 15px 0px;
+        background-color: #353535;
+        margin: 0 auto;
+        margin-top: -5px;
+        align-items: normal;
+        border-radius: 0px 0px 10px 10px;
+    }
+     
+
+    .popular_space img{
+        width: 80px;
+        height: 30px;
+        margin-left: -515px;
+        margin-top: 47px;
+    }
+
+
+    .container_films{
+        max-width: 390px;
+        margin-left: 25px;
+        order:1;
+    }
+
+    .container_films img{
+        width: 70px;
+        height: 110px;
+        border-radius: 10px;
+    }
+
+    .inter img{
+        width: 70px;
+        height: 110px;
+        border-radius: 10px;
+    }
+
+    .inter_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding: 10px 10px;
+    }
+
+    .trueman_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding: 10px 10px;
+    }
+
+    .whiplash_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding: 10px 10px;
+    }
+
+    .lala_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding: 10px 10px;
+    }
+
+    .getout_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding: 10px 10px;
+    }
+
+    .hotel_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding: 10px 10px;
+    }
+
+    .lighthouse_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding: 10px 10px;
+    }
+
+
+    .knives_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding: 10px 10px;
+    }
+
+    .hollywood_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding: 10px 10px;
+    }
+
+
+    .inter .ticket_min{
+        margin-left: -140px;
+    }
+    
+
+    .trueman .ticket_min{
+        margin-left: -140px;
+    }
+
+    .whiplash .ticket_min{
+        margin-left: -140px;
+    }
+
+    .lala .ticket_min{
+        margin-left: -140px;
+    }
+
+    .getout .ticket_min{
+        margin-left: -140px;
+    }
+
+    .hotel .ticket_min{
+        margin-left: -140px;
+    }
+
+    .ticket_min img{
+        width: 30px;
+        height: 20px;
+    }
+
+    .lighthouse .ticket_min{
+        margin-left: -140px;
+    }
+    .soon
+    {
+        order: 2;
+    }
+
+    .films_list
+    {
+        order: 1;
+    }
+    .knives .ticket_min{
+        margin-left: -140px;
+    }
+
+    .hollywood  .ticket_min{
+        margin-left: -140px;
+    }
+
+    .soon_title{
+        font-size: 16px;
+    }
+
+    .container_soon{
+        max-width: 368px;
+        margin-left: 25px;
+    }
+
+    .container_soon img{
+        width: 70px;
+        height: 110px;
+    }
+
+    .soon_title h2{
+        font-size: 16px;
+    }
+
+    .fourth_row{
+        margin-top: 0;
+    }
+
+    .moon_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding-top: 10px;
+    }
+
+    .fint_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding-top: 10px;
+    }
+
+    .irony_name{
+        width: 70px;
+        height: 10px;
+        border-radius: 5px;
+        font-size: 5px;
+        padding-top: 10px;
+    }
+
+    .see_text h4{
+        font-size: 20px;
+    }
+
+    .gosling{
+        display: none;
+    }
+
+    .statham{
+        display: none;
+    }
+
+    .sect_soc{
+        height: 50px;
+        display: flex;
+        border-top: 2px solid white;
+        align-items: center;
+        margin-top: 320px;
+    
+    }
+
+    .social_f{
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .social_f img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .media_f{
+        gap: 10px;
+    }
+
+
+    .download_f{
+        gap: 10px;
+    }
+  
+
+    .sect_soc{
+        display: flex;
+        flex-flow: row;
+    }
+
+
+.popular_space{
+        display: none;
+    }
+  .see_text{
+        display: none;
+    }
+    }

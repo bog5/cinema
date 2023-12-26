@@ -1,0 +1,62 @@
+.title{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.phone{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.descrip{
+    /* max-width: 550px; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.descrip span{
+    color: white;
+    font-size: 22px;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.photo img{
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 390px) {
+    .title h4{
+        font-size: 16px;
+        margin-top: -25px;
+        margin-left: 0;
+    }
+
+    .phone h4{
+        font-size: 18px;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .descrip span{
+        max-width: 308px;
+        font-size: 8px;
+    }
+
+    .photo img{
+        width: 250px;
+        border-radius: 10px;
+    }
+
+
+
+
+}

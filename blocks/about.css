@@ -1,0 +1,209 @@
+.about_title{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 10;
+}
+
+.about_pic{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about_pic img{
+    border-radius: 40px;
+    width: 700px;
+}
+
+.about_text{
+    /* max-width: 717px; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+
+.about_text span{
+    max-width: 670px;
+}
+
+.vip_title{
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.vip_pic{
+    display: flex;
+    justify-content: center;
+}
+
+.vip_pic img{
+    width: 700px;
+    border-radius: 40px;
+}
+
+.vip_text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.vip_text span{
+    max-width: 670px;
+}
+
+.loc_title{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.map_text{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.map_text span{
+    max-width: 400px;
+}
+
+
+.sect_soc_a{
+    height: 200px;
+    display: flex;
+    border-top: 2px solid white;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.social_a{
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.download_a{
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+}
+
+.media_a {
+    display: flex;
+    flex-flow: row;
+}
+
+.media_a {
+    gap: 40px;
+}
+
+@media screen and (max-width: 390px) {
+
+    .about_title h1{
+        font-size: 10px;
+    }
+
+    .about_pic img{
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .about_text{
+        font-size: 8px;
+    }
+
+    .about_text span{
+        max-width: 190px;
+    }
+
+    .vip_title h2{
+        font-size: 10px;
+    }
+
+    .vip_pic img{
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .vip_text{
+        font-size: 8px;
+    }
+
+    .vip_text span{
+        max-width: 200px;
+    }
+
+    .loc_title h2{
+        font-size: 14px;
+    }
+
+    .map_text{
+        font-size: 13px;
+    }
+
+    .map_text span{
+        max-width: 20px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .sect_soc_a{
+        height: 50px;
+        display: flex;
+        border-top: 2px solid white;
+        align-items: center;
+        margin-top: 20px;
+    
+    }
+
+    .social_a{
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .social_a img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .media_a{
+        gap: 10px;
+    }
+
+
+    .download_a{
+        gap: 10px;
+    }
+  
+
+    .sect_soc_a{
+        display: flex;
+        flex-flow: row;
+    }
+
+  
+    
+}

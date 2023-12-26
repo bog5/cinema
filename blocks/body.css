@@ -1,0 +1,602 @@
+body{
+    background-color: #1a1a1c;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 10;
+}
+
+.hero{
+    text-align: center;
+    color: white;
+}
+
+.hero__title{
+    margin-top: 40px;
+    font-size: 38px;
+    Letter-spacing: 2px;
+    font-weight: 10;
+    text-align: center;
+    color: white;
+}
+
+.barbie img {
+    width: 866px;
+    height: 408px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 10px;
+    box-shadow: 25px 13px 15px rgba(255, 133, 251, 0.441);
+}
+
+.oppen img{
+    width: 866px;
+    height: 408px;
+    background: url("pics/barbie"), lightgray 50% / cover no-repeat;
+    border-radius: 31px 31px 0px 0px;
+    box-shadow: 25px 13px 15px rgba(238, 117, 32, 0.441); 
+    margin-top: 60px;
+    background: url('pics/oppen.png'), lightgray 50% / cover no-repeat;
+
+
+}
+
+.ticket__space{
+    width: 220px;
+     margin: -90px 41px 11px 600px;
+}
+
+.ticket__space__2{
+    width: 220px;
+     margin: -82px 41px 11px 600px;
+}
+
+.under1{
+    display: inline-block;
+    text-align: left;
+    width: 866px;
+    height: 83px;
+    padding: 25px 0px;
+    background-color: #353535;
+    margin: 0 auto;
+    margin-top: -5px;
+    align-items: normal;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 25px 12px 15px rgba(255, 133, 251, 0.441);
+}
+
+.under1 h4{
+    width: 326px;
+    height: 43px;
+    margin-left: 50px;
+}
+
+
+
+
+
+/* .ticket1 h4{
+    
+    font-size: 22px;
+} */
+
+
+.under2{
+    display: inline-block;
+    text-align: left;
+    width: 866px;
+    height: 83px;
+    padding: 25px 0px;
+    background-color: #353535;
+    margin: 0 auto;
+    margin-top: -5px;
+    align-items: normal;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 25px 12px 15px rgba(238, 117, 32, 0.441);
+}
+
+.under2 h4{
+    margin-left: 50px;
+}
+
+
+h4{
+    font-weight: 10;
+    font-size: 30px;
+    /* text-align: left; */
+    margin-top: -5px;
+    margin-left: 25px;
+    /* align-items: normal; */
+    /*justify-content: center; */
+    Letter-spacing: 2px;
+}
+
+.offer{
+  text-align: center;
+}
+.offer__title{
+    color: white;
+    margin-top: 75px;
+    font-size: 46px;
+    text-align: center;
+    font-weight: 10;
+}
+
+.container {
+    padding: 0px 134px;
+    max-width: 1800px;
+}
+
+.offer__1{
+    display: flex;
+    justify-content: start; 
+}
+.offer__2{
+    display: flex;
+    justify-content: end;
+}
+.offer__3{
+    display: flex;
+    align-items: start;
+}
+
+
+.minor{
+    padding: 60px 0px 40px 0px;
+    margin-top: -25px;
+}
+
+.mini__1{
+    display: flex;
+    justify-content: end;
+}
+
+.mini__2{
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.mini__3{
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+
+.container_bottom{
+    padding: 10px 300px 100px 300px;
+
+}
+
+
+.blue_space{
+    
+    height: 455px;
+    background-color: #213041;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.buttons{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around; 
+    /* align-items: center; */
+    max-width: 1200px;
+    gap: 250px;
+    margin-top: 75px;
+}
+
+/* .buttons .films{
+    display: flex;
+    justify-content: start;
+
+
+}
+
+.buttons .timet{
+    display: flex;
+    justify-content: end; 
+}*/
+
+a.films {
+    width: 291px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6784BC;
+    color: #fff;
+    padding: 12px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+a.films :hover{background: rgb(219, 48, 48);}
+
+  a.timet {
+    width: 291px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-flow: row; */
+    /* align-content: center; */
+    background: #6784BC;
+    color: #fff;
+    padding: 12px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+  }
+
+.container_bottom h3{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+
+
+
+.sect_soc_m{
+    height: 200px;
+    display: flex;
+    border-top: 2px solid white;
+    align-items: center;
+
+}
+
+.social_m{
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.download_m{
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+}
+
+.media_m {
+    display: flex;
+    flex-flow: row;
+}
+
+.media_m {
+    gap: 40px;
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .html{
+        width: 100%;
+    }
+
+    .hero__title{
+        text-align: center;
+        color: white;
+    }
+
+    body{
+        background-color: #1a1a1c;
+        font-family: 'Russo One', sans-serif;
+        font-weight: 10;
+        
+    }
+
+    .hero{
+        /* text-align: center; */
+        color: white;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .hero__title{
+        margin-top: 20px;
+        font-size: 18px;
+        Letter-spacing: 2px;
+        font-weight: 10;
+    }
+
+    .barbie img {
+        width: 200px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 15px 15px 0px 0px;
+        margin-top: 10px;
+        box-shadow: 15px 13px 15px rgba(255, 133, 251, 0.441);
+    }
+
+
+    .under1{
+        display: inline-block;
+        text-align: left;
+        width: 200px;
+        height: 1px;
+        padding: 15px 0px;
+        background-color: #353535;
+        margin: 0 auto;
+        /* margin-top: -5px; */
+        align-items: normal;
+        border-radius: 0px 0px 15px 15px;
+        box-shadow: 15px 12px 15px rgba(255, 133, 251, 0.441);
+    }
+    
+    
+    .under1 h4{
+        font-size: 10px;
+        text-align: left;
+        margin-left: 20px;
+        width: 100px;
+        /* width: 200px;
+        height: 23px;
+        margin-left: 50px; */
+    }
+
+    .new{
+        width: 368px;
+    }
+
+
+    .oppen img{
+        width: 200px;
+        height: 90px;
+        background: url("pics/barbie"), lightgray 50% / cover no-repeat;
+        border-radius: 15px 15px 0px 0px;
+        box-shadow: 15px 13px 15px rgba(238, 117, 32, 0.441); 
+        margin-top: 10px;
+        background: url('pics/oppen.png'), lightgray 50% / cover no-repeat;
+    }
+
+    .under2{
+        display: inline-block;
+        text-align: left;
+        width: 200px;
+        height: 5px;
+        padding: 15px 0px;
+        background-color: #353535;
+        /* margin: 0 auto; */
+        align-items: normal;
+        border-radius: 0px 0px 15px 15px;
+        box-shadow: 15px 12px 15px rgba(238, 117, 32, 0.441);
+    }
+
+
+    .under_but_1 img{
+        margin-top: -90px;
+    }
+    .under2 h4{
+        font-size: 10px;
+        margin-left: 20px;
+        
+    }
+
+    .under_but_1 img {
+        position: relative;
+        top: 19px;
+        left: 101px;
+    }
+
+    
+
+    .under_but_2 img {
+        position: relative;
+        /* top: 83px; */
+        left: 50px;
+    }
+    h4{
+        font-weight: 10;
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+
+
+    .ticket__space{
+        display: none;
+    }
+
+
+    .ticket__space img{
+        width: 80px;
+        height: 40px;
+    }
+    
+    .ticket__space__2{
+        display: none;
+    }
+
+    .ticket__space__2 img{
+        width: 80px;
+        height: 40px;
+    }
+
+    .container {
+        padding: 0px 134px;
+        max-width: 368px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    .offer__title{
+        text-align: center;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .offer__1{
+        display: flex;
+        justify-content: start; 
+        }
+    .offer__1 img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .offer__2 img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .offer__3 img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .minor{
+        height: 460px;
+    }
+
+    .mini__1 img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .mini__2 img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .mini__3 img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .blue_space{
+    max-width: 368px;
+        height: 100px;
+        background-color: #213041;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .ticket_title h3{
+       display: none;
+    }
+
+
+    .adress{
+        height: 50px;
+    }
+    .buttons{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around; 
+        align-items: center;
+        max-width: 308px;
+        gap: 50px;
+    
+    }
+
+
+
+    a.films {
+        width: 100px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #6784BC;
+        color: #fff;
+        padding: 12px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-family: 'Russo One', sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    a.timet {
+        width: 100px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-flow: row; */
+        /* align-content: center; */
+        background: #6784BC;
+        color: #fff;
+        padding: 12px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-family: 'Russo One', sans-serif;
+        font-size: 10px;
+        font-weight: 100;
+      }
+
+
+
+
+      .container_bottom{
+        max-width: 368px;
+        height: 200px;
+        padding: 0px;
+      }
+
+      .sect_soc_m{
+        height: 50px;
+        display: flex;
+        border-top: 2px solid white;
+        align-items: center;
+        margin-top: 50px;
+    
+    }
+
+    .social_m{
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .social_m a img{
+        width: 21px;
+        height: 21px;
+    }
+
+    .media_m{
+        gap: 10px;
+    }
+
+    .download_m{
+        gap: 10px;
+    }
+  
+
+    .sect_soc{
+        display: flex;
+        flex-flow: row;
+    }
+
+
+    }
+
+ 

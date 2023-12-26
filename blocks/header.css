@@ -1,0 +1,152 @@
+body{
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 129px;
+    background-color: black;
+    font-family: 'Russo One', sans-serif;
+    border-bottom: solid white 4px;
+
+    
+}
+
+
+.logo a img{
+    width: 120px;
+}
+
+/* a.logo{
+    height: 91px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 120px;
+    margin-right: 150px;
+  
+
+} */
+
+
+/* .header__logo-pic{
+    width: 120px;
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 24px;
+} */
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    flex-flow: nowrap;
+    gap: 100px;
+    
+}
+
+
+
+.list li{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 100px;
+}
+
+.list li a{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+	color: #ffffff; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+    gap: 100px;
+}
+
+
+.main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+ /* {
+	position: relative;
+	color: #ff0000; 
+	cursor: pointer;
+	line-height: 1; 
+	text-decoration: none; убираем подчёркивание
+ } */
+ 
+.list li a:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 1px; /*задаём ширину линии*/
+	background-color: #ff0000; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.1s ease-out; /*задаём время анимации*/
+}
+
+.list li a:hover:after,
+.list li a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/}
+
+    @media screen and (max-width: 368px) {
+        .header{
+            height: 50px;
+            max-width: 368px;
+            border-bottom: solid white 2px;
+            align-items: center;
+        }
+
+
+        .logo{
+            margin-left: 30px;
+        }
+        .logo a img{
+            width: 40px;
+        }
+
+        .nav-menu {
+            display: flex;
+            justify-content: space-between;
+            float: left;
+            flex-flow: nowrap;
+            gap: 30px;
+            align-items: center;
+            
+        }
+
+
+        .list li{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            align-items: center;
+        }
+
+        .list li a{
+            color: #fff;
+            font-size: 7px;
+            position: relative;
+            color: #ffffff; /*задаём цвет ссылки*/
+            cursor: pointer;
+            line-height: 1; /*задаём высоту строки*/
+            text-decoration: none; /*убираем подчёркивание*/
+
+        }
+
+        .main-menu ul{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-left: -30px;
+        }
+    }

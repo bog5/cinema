@@ -1,0 +1,542 @@
+.title_time{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.title_time h4{
+    font-size: 38px;
+}
+
+.days{
+    color: white;
+    /* font-size: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.days a{
+    text-decoration: none;
+    color: white;
+}
+
+.days .monday span{
+    font-size: 20px;
+}
+
+.days .tuesday span{
+    font-size: 30px;
+}
+
+.days .wed span{
+    font-size: 40px;
+    color: #DB0202;
+}
+
+.days .thursday span{
+    font-size: 30px;
+}
+
+.days .friday span{
+    font-size: 20px;
+}
+
+.time_inter{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.tit_int{
+    color: white;
+    font-size: 28px;
+}
+
+.img_int img{
+    border-radius: 20px;
+    width: 200px;
+}
+
+.inter_time{
+    margin-top: 70px;
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+}
+
+
+.nine_i span{
+    color: rgb(255, 248, 183);
+}
+
+.eleven_i span{
+    color: rgb(255, 248, 183);
+}
+
+.thirteen_i span{
+    color: rgb(255, 248, 183);
+}
+
+.fifteen_i span{
+    color: rgb(255, 248, 183);
+}
+
+.eighteen_i span{
+    color: rgb(255, 248, 183);
+}
+
+
+
+.time_whiplash{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.tit_whi{
+    color: white;
+    font-size: 28px;
+}
+
+.img_whi img{
+    border-radius: 20px;
+    width: 200px;
+}
+
+.whiplash_time{
+    margin-top: 70px;
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+}
+
+
+.nine_w span{
+    color: rgb(255, 248, 183);
+}
+
+.eleven_w span{
+    color: rgb(255, 248, 183);
+}
+
+.thirteen_w span{
+    color: rgb(255, 248, 183);
+}
+
+.fifteen_w span{
+    color: rgb(255, 248, 183);
+}
+
+.eighteen_w span{
+    color: rgb(255, 248, 183);
+}
+
+
+
+
+.time_getout{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.tit_out{
+    color: white;
+    font-size: 28px;
+}
+
+.img_out img{
+    border-radius: 20px;
+    width: 200px;
+}
+
+.getout_time{
+    margin-top: 70px;
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+}
+
+
+.nine_o span{
+    color: rgb(255, 248, 183);
+}
+
+.eleven_o span{
+    color: rgb(255, 248, 183);
+}
+
+.thirteen_o span{
+    color: rgb(255, 248, 183);
+}
+
+.fifteen_o span{
+    color: rgb(255, 248, 183);
+}
+
+.eighteen_o span{
+    color: rgb(255, 248, 183);
+}
+
+
+
+.time_lighthouse{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.tit_house{
+    color: white;
+    font-size: 28px;
+}
+
+.img_house img{
+    border-radius: 20px;
+    width: 200px;
+}
+
+.lighthouse_time{
+    margin-top: 70px;
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+}
+
+
+.nine_l span{
+    color: rgb(255, 248, 183);
+}
+
+.eleven_l span{
+    color: rgb(255, 248, 183);
+}
+
+.thirteen_l span{
+    color: rgb(255, 248, 183);
+}
+
+.fifteen_l span{
+    color: rgb(255, 248, 183);
+}
+
+.eighteen_l span{
+    color: rgb(255, 248, 183);
+}
+
+
+
+.time_knivesout{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.tit_knife{
+    color: white;
+    font-size: 28px;
+}
+
+.img_knife img{
+    border-radius: 20px;
+    width: 200px;
+}
+
+.knivesout_time{
+    margin-top: 70px;
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+}
+
+
+.nine_k span{
+    color: rgb(255, 248, 183);
+}
+
+.eleven_k span{
+    color: rgb(255, 248, 183);
+}
+
+.thirteen_k span{
+    color: rgb(255, 248, 183);
+}
+
+.fifteen_k span{
+    color: rgb(255, 248, 183);
+}
+
+.eighteen_k span{
+    color: rgb(255, 248, 183);
+}
+
+.sect_soc_t{
+    height: 200px;
+    display: flex;
+    border-top: 2px solid white;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.social_t{
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.download_t{
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+}
+
+.media_t {
+    display: flex;
+    flex-flow: row;
+}
+
+.media_t {
+    gap: 40px;
+}
+
+
+@media screen and (max-width: 390px){
+    .title_time h4{
+        font-size: 16px;
+        margin-top: -30px;
+        margin-left: 0;
+    }
+
+    .days a{
+        text-decoration: none;
+    }
+
+    .days{
+        max-width: 368px;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .days .monday span{
+        font-size: 10px;
+    }
+
+    .days .tuesday span{
+        font-size: 12px;
+    }
+
+    .days .wed span{
+        font-size: 14px;
+    }
+
+    .days .thursday span{
+        font-size: 12px;
+    }
+
+    .days .friday span{
+        font-size: 10px;
+    }
+
+
+    .schedule{
+        max-width: 368px;
+    }
+
+    .schedule img{
+        width: 75px;
+        height: 100px;
+        border-radius: 5%;
+    }
+
+    .schedule span{
+        font-size: 11px;
+    }
+
+    .time_inter{
+        margin-top: 30px;
+    }
+
+    .description{
+        max-width: 250px;
+        max-height: 100px;
+    }
+
+    .inter_time{
+        margin-top: 0;
+        gap: 5px;
+        display: flex;
+    }
+    .inter_time span{
+        font-size: 11px;
+    }
+    .eleven_i{
+        margin-top: 22px;
+    }
+    .fifteen_i{
+        margin-top: 22px;
+    }
+
+
+
+    .time_whiplash{
+        margin-top: 30px;
+    }
+
+    .description_w{
+        max-width: 250px;
+        max-height: 100px;
+    }
+
+    .whiplash_time{
+        margin-top: 0;
+        gap: 5px;
+        display: flex;
+    }
+    .whiplash_time span{
+        font-size: 11px;
+    }
+    .eleven_w{
+        margin-top: 22px;
+    }
+    .fifteen_w{
+        margin-top: 22px;
+    }
+
+
+
+    .time_getout{
+        margin-top: 30px;
+    }
+
+    .description_g{
+        max-width: 250px;
+        max-height: 100px;
+    }
+
+    .getout_time{
+        margin-top: 0;
+        gap: 5px;
+        display: flex;
+    }
+    .getout_time span{
+        font-size: 11px;
+    }
+    .eleven_o{
+        margin-top: 22px;
+    }
+    .fifteen_o{
+        margin-top: 22px;
+    }
+
+
+
+    .time_lighthouse{
+        margin-top: 30px;
+    }
+
+    .description_l{
+        max-width: 250px;
+        max-height: 100px;
+    }
+
+    .lighthouse_time{
+        margin-top: 0;
+        gap: 5px;
+        display: flex;
+    }
+    .lighthouse_time span{
+        font-size: 11px;
+    }
+    .eleven_l{
+        margin-top: 22px;
+    }
+    .fifteen_l{
+        margin-top: 22px;
+    }
+
+
+
+
+    .time_knivesout{
+        margin-top: 30px;
+    }
+
+    .description_k{
+        max-width: 250px;
+        max-height: 100px;
+    }
+
+    .knivesout_time{
+        margin-top: 0;
+        gap: 5px;
+        display: flex;
+    }
+    .knivesout_time span{
+        font-size: 11px;
+    }
+    .eleven_k{
+        margin-top: 22px;
+    }
+    .fifteen_k{
+        margin-top: 22px;
+    }
+
+
+    .sect_soc_t{
+        height: 50px;
+        display: flex;
+        border-top: 2px solid white;
+        align-items: center;
+        margin-top: 10px;
+    
+    }
+
+    .social_t{
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .social_t img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .media_t{
+        gap: 10px;
+    }
+
+
+    .download_t{
+        gap: 10px;
+    }
+  
+
+    .sect_soc{
+        display: flex;
+        flex-flow: row;
+    }
+
+
+
+
+
+
+
+
+
+}

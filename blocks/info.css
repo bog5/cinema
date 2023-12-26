@@ -1,0 +1,340 @@
+.background-container{
+    position: relative;
+}
+
+.background-container img{
+   width: 100%;
+}
+
+.text-pic h4 {
+    position: absolute;
+    font-family: 'y-reg';
+    font-size: 122px;
+    font-weight: 200;
+    top: 60px;
+    left: 3%;
+    color: #fff;
+  
+}
+
+.text-pic h3 {
+    position: absolute;
+    color: #c2c2c2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20;
+    top: 150px;
+    left: 5%;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+
+.meaning span{
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    color: #d6d6d6;
+    top: 250px;
+    left: 5%;
+    max-width: 650px;
+    font-size: 28px;
+}
+
+.buy_tic{
+    position: absolute;
+    top: 536px;
+    left: 5%;
+    
+}
+
+.buy_tic button{
+    background-color: rgb(207, 152, 251);
+    height: 90px;
+    width: 250px;
+    border-radius: 60px;
+    margin-top: 80px;
+}
+
+.buy_tic span{
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.info_container{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-left: 15%;
+}
+
+.direct h4{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+
+.about_dir{
+    max-width: 550px;
+    font-size: 20px;
+}
+
+.about_dir span{
+    color: white;
+    font-size: 30px;
+}
+
+.act_tit h4{
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    font-size: 40px;
+}
+
+.actors{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.time_title h4{
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    font-size: 40px;
+}
+
+.days{
+    color: white;
+    /* font-size: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.days .monday span{
+    font-size: 20px;
+}
+
+.days .tuesday span{
+    font-size: 30px;
+}
+
+.days .wed span{
+    font-size: 40px;
+    color: #DB0202;
+}
+
+.days .thursday span{
+    font-size: 30px;
+}
+
+.days .friday span{
+    font-size: 20px;
+}
+
+.time{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 3%;
+    font-size: 25px;
+}
+
+.time .eleven{
+    margin-top: 40px;
+}
+
+.time .fifteen{
+    margin-top: 40px;
+}
+
+.screen .squad{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.seats{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    
+}
+
+.seats button {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 0;
+}
+
+.sofas button{
+    width: 120px;
+}
+
+.first_row{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.second_row{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+
+.third_row{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.fourth_row{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+
+.fifth_row{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.sofas{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px; 
+}
+
+.but:focus {
+    background:#db6666;
+  }
+
+.order_title h4{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.input_name{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    width: 550px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #636363a1;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.input_email{
+    border: 0;
+    width: 550px;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #636363a1;
+    font-size: 20px;
+    color: white;
+}
+
+.input_phone{
+    border: 0;
+    width: 550px;
+    height:80px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #636363a1;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.input_name::placeholder {color: #ffffffc5;}
+.input_email::placeholder {color: #ffffffc5;}
+.input_phone::placeholder {color: #ffffffc5;}
+
+
+
+.send{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.snt_but{
+    width: 220px;
+    height: 60px;
+    background-color: #DB0202;
+    border: 1;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+
+.sect_soc_i{
+    height: 200px;
+    display: flex;
+    border-top: 2px solid white;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.social_i{
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.download_i{
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+}
+
+.media_i {
+    display: flex;
+    flex-flow: row;
+}
+
+.media_i {
+    gap: 40px;
+}
+
+/* .buy_tic button{
+    border-color: blue;
+    color: #ffffff00;
+    box-shadow: 0 0 10px 10px blue inset, 0 0 0 0 blue;
+    transition: all 150ms ease-in-out;
+}
+    
+    .buy_tic button:hover {
+      box-shadow: 0 0 10px blue inset, 0 0 10px 4px blue;
+    } */
